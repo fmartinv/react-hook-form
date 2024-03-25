@@ -2,7 +2,7 @@ import React from 'react'
 import { ErrorBadgeStyled } from './ErrorBadgeStyles'
 
 interface ErrorBadgeProps {
-  errorMessage: string
+  errorMessage: string | undefined
 }
 
 const ErrorBadge: React.FC<ErrorBadgeProps> = ({ errorMessage }) => {

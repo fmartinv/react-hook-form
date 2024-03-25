@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# React Hook Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a project using React hook Form to setup a simple form
 
-Currently, two official plugins are available:
+Using Main functionalities of React Hook Form
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[React Hook Form DOCS](https://react-hook-form.com/)
 
-## Expanding the ESLint configuration
+Used in this project
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Following the DOCS [DOCS](https://react-hook-form.com/) in RHF at the get Started
+[Get Started](https://react-hook-form.com/get-started#Registerfields)
 
-- Configure the top-level `parserOptions` property like this:
+Hook
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+UseForm()
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Register
+handleSubmit
+formState
+watch
+reset
+
+Used Also in this project
+
+Styled Components
+Typescript
+
+In this project the functionalities are in the App.tsx component
